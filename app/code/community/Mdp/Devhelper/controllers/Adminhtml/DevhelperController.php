@@ -20,6 +20,7 @@ class Mdp_Devhelper_Adminhtml_DevhelperController extends Mage_Adminhtml_Control
 
         $this->loadLayout()
             ->_setActiveMenu('system/mdp_devhelper')
+            //->_addContent($this->getLayout()->createBlock('mdp_devhelper/adminhtml_index'))
             ->renderLayout();
     }
 }
