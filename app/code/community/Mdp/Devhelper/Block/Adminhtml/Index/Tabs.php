@@ -4,6 +4,7 @@ class Mdp_Devhelper_Block_Adminhtml_Index_Tabs extends Mage_Adminhtml_Block_Widg
 {
     public function _construct()
     {
+        parent::_construct();
         $this->setTitle(Mage::helper('mdp_devhelper')->__('MDP Devhelper'));
     }
 
