@@ -1,3 +1,39 @@
-<?xml version="1.0">
+<?xml version="1.0"?>
 <config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <mdp_devhelper translate="title">
+                                <title>MDP Devhelper</title>
+                                <sort_order>100</sort_order>
+                                <action>adminhtml/devhelper</action>
+                            </mdp_devhelper>
+                            <config>
+                                <children>
+                                    <mdp_devhelper translate="title" module="mdp_devhelper">
+                                        <title>MDP Devhelper</title>
+                                    </mdp_devhelper>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+
+    <menu>
+        <system>
+            <children>
+                <mdp_devhelper translate="title" module="mdp_devhelper">
+                    <title>MDP Devhelper</title>
+                    <sort_order>100</sort_order>
+                    <action>adminhtml/devhelper_index</action>
+                </mdp_devhelper>
+            </children>
+        </system>
+    </menu>
 </config>
