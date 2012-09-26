@@ -6,12 +6,11 @@
 class Mdp_Devhelper_Adminhtml_DevhelperController extends Mage_Adminhtml_Controller_Action
 {
     /**
-     * @todo add ACL
      * @return bool
      */
     protected function _isAllowed()
     {
-        return true;
+        return Mage::getSingleton('admin/session')->isAllowed('system/mdp_devhelper');
     }
 
     public function indexAction()

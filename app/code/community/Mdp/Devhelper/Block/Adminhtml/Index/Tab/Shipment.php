@@ -1,6 +1,6 @@
 <?php
 
-class Mdp_Devhelper_Block_Adminhtml_Index_Tab_Customer extends Mage_Adminhtml_Block_Widget_Form
+class Mdp_Devhelper_Block_Adminhtml_Index_Tab_Shipment extends Mage_Adminhtml_Block_Widget_Form
 {
     public function initForm()
     {
@@ -19,7 +19,7 @@ class Mdp_Devhelper_Block_Adminhtml_Index_Tab_Customer extends Mage_Adminhtml_Bl
             'label'     => Mage::helper('mdp_devhelper')->__('Receiver Email'),
             'title'     => Mage::helper('mdp_devhelper')->__('Receiver Email'),
         ));
-        
+
         $this->setForm($form);
         return $form;
     }
