@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<config>
+    <global>
+        <models>
+            <mdp_devhelper>
+                <class>Mdp_Devhelper_Model</class>
+            </mdp_devhelper>
+        </models>
+
+        <helpers>
+            <mdp_devhelper>
+                <class>Mdp_Devhelper_Helper</class>
+            </mdp_devhelper>
+        </helpers>
+
+        <blocks>
+            <mdp_devhelper>
+                <class>Mdp_Devhelper_Block</class>
+            </mdp_devhelper>
+        </blocks>
+    </global>
+
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <mdp_devhelper before="Mage_Adminhtml">Mdp_Devhelper_Adminhtml</mdp_devhelper>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>
