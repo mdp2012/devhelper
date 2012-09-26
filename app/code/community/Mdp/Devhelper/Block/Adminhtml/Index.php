@@ -1,6 +1,6 @@
 <?php
 
-class Mdp_Devhelper_Block_Adminhtml_Index extends Mage_Adminhtml_Block_Widget_Grid_Container
+class Mdp_Devhelper_Block_Adminhtml_Index extends Mage_Adminhtml_Block_Widget_View_Container
 {
     public function __construct()
     {

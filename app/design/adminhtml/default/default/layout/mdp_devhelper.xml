@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <adminhtml_devhelper_index>
+        <reference name="content">
+            <block type="mdp_devhelper/adminhtml_index" name="mdp_devhelper_index"></block>
+        </reference>
+        <reference name="left">
+            <block type="mdp_devhelper/adminhtml_index_tabs" name="mdp_devhelper_index_tabs">
+                <!--<block type="mdp_devhelper/adminhtml_index_tab_customer" name="mdp_devhelper_index_tab_customer" template="customer/tab/view.phtml"/>-->
+            </block>
+        </reference>
+    </adminhtml_devhelper_index>
+</layout>

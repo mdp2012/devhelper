@@ -31,4 +31,14 @@
             </adminhtml>
         </routers>
     </admin>
+
+    <adminhtml>
+        <layout>
+            <updates>
+                <mdp_devhelper>
+                    <file>mdp_devhelper.xml</file>
+                </mdp_devhelper>
+            </updates>
+        </layout>
+    </adminhtml>
 </config>
